@@ -23,20 +23,6 @@
 				<div class="card paint-card">
 					<div class="card-body">
 						<p class="fs-4 text-center">User Register</p>
-						
-						<div>
-							
-							<form action="user_register" method="post">
-							
-							<div class="mb-3">
-								<label class="form-label">Email address</label> <input required
-									name="email" type="email" class="form-control">
-								<button type="submit"
-									class="btn bg-success text-white col-md-4">Register</button>
-							</div>
-							
-							</form>
-						</div>
 
 						<c:if test="${not empty sucMsg }">
 							<p class="text-center text-success fs-3">${sucMsg}</p>
@@ -57,29 +43,15 @@
 
 
 
-
-
-
-
-
 						<form action="user_register" method="post">
 							<div class="mb-3">
 								<label class="form-label">Full Name</label> <input required
 									name="fullname" type="text" class="form-control">
 							</div>
-							
-							
-							
 							<div class="mb-3">
 								<label class="form-label">Email address</label> <input required
 									name="email" type="email" class="form-control">
-							
 							</div>
-							
-							
-							
-					
-
 
 							<div class="mb-3">
 								<label class="form-label">Password</label> <input required
